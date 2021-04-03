@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/darpots/fm-pod-request](https://github.com/darpots/fm-pod-request)
+- Live Site URL: [https://wonderful-fermi-155c56.netlify.app/](https://wonderful-fermi-155c56.netlify.app/)
 
 ## My process
 
