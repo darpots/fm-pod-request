@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 3.875rem;
+  padding-bottom: 5.875rem;
+  @media screen and (min-width: 48rem) {
+    padding-top: 3.125rem;
+    max-width: 64rem;
+  }
+  @media screen and (min-width: 90rem) {
+    max-width: 90rem;
+    padding: 0;
+  }
+}
+
+.container {
+  padding: 0 1.5rem;
+  @media screen and (min-width: 48rem) {
+    padding-left: 2.4375rem;
+  }
+  @media screen and (min-width: 90rem) {
+    padding: 0 0 0 10.3125rem;
+  }
+}

@@ -1,0 +1,41 @@
+h1 {
+  font-size: 1.625rem;
+  font-weight: 300;
+  line-height: 2.375rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primaryDark);
+  margin-bottom: 1rem;
+  @media screen and (min-width: 48rem) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: left;
+    margin-bottom: 1.9375rem;
+  }
+  @media screen and (min-width: 48rem) {
+    font-size: 3.25rem;
+    line-height: 3.875rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+p {
+  font-size: 0.9375rem;
+  font-weight: 300;
+  line-height: 1.5625rem;
+  text-align: center;
+  color: var(--medium);
+  margin-bottom: 2rem;
+  opacity: 0.7;
+  @media screen and (min-width: 48rem) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: left;
+    width: 27.8125rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+span {
+  color: var(--light);
+}

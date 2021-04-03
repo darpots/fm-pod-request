@@ -1,0 +1,30 @@
+.background-image {
+  position: relative;
+  background: url('../images/mobile/image-host.jpg') no-repeat;
+  background-size: cover;
+  z-index: 0;
+  max-height: 41.6875rem;
+
+  &::after {
+    position: absolute;
+    content: '';
+    background: var(--dark);
+    opacity: 0.95;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  @media screen and (min-width: 48rem) {
+    background: url('../images/tablet/image-host.jpg') no-repeat top right;
+    min-height: 47.9375rem;
+    &::after {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 90rem) {
+    background: url('../images/desktop/image-host.jpg') no-repeat top right;
+    top: 8.125rem;
+  }
+}

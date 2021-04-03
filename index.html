@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./validate.js" defer></script>
+    <title>Pod request access landing page</title>
+  </head>
+  <body>
+    <div class="wrapper background-image">
+      <div class="container">
+        <!-- DIV 1 -->
+        <div class="logo">
+          <img src="./images/desktop/logo.svg" alt="" />
+        </div>
+        <!-- DIV 2 -->
+        <div class="main-section">
+          <h1>Publish your podcasts <span>everywhere.</span></h1>
+          <p>
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </p>
+          <div class="podcast-strip">
+            <div><img src="./images/desktop/spotify.svg" alt="Spotify" /></div>
+            <div>
+              <img
+                src="./images/desktop/apple-podcast.svg"
+                alt="Apple Podcasts"
+              />
+            </div>
+            <div>
+              <img
+                src="./images/desktop/google-podcasts.svg"
+                alt="Google Podcasts"
+              />
+            </div>
+            <div>
+              <img src="./images/desktop/pocket-casts.svg" alt="Pocket Casts" />
+            </div>
+          </div>
+          <div>
+            <form id="form" novalidate>
+              <input
+                name="email"
+                type="email"
+                aria-label="email"
+                placeholder="Email address"
+              />
+              <p class="email-error">Oops! Please check your email</p>
+              <input name="submit" type="submit" value="Request access" />
+            </form>
+          </div>
+        </div>
+        <!-- DIV 3-->
+        <div class="dots">
+          <img src="./images/desktop/bg-pattern-dots.svg" alt="Dots" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
