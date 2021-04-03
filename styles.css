@@ -124,7 +124,8 @@ span {
 
 .background-image {
   position: relative;
-  background: url("./images/mobile/image-host.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-image: url("./images/mobile/image-host.jpg");
   background-size: cover;
   z-index: 0;
   max-height: 41.6875rem;
@@ -142,7 +143,9 @@ span {
 }
 @media screen and (min-width: 48rem) {
   .background-image {
-    background: url("./images/tablet/image-host.jpg") no-repeat top right;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url("./images/tablet/image-host.jpg");
     min-height: 47.9375rem;
   }
   .background-image::after {
@@ -151,7 +154,9 @@ span {
 }
 @media screen and (min-width: 90rem) {
   .background-image {
-    background: url("./images/desktop/image-host.jpg") no-repeat top right;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url("./images/desktop/image-host.jpg");
     top: 8.125rem;
   }
 }
