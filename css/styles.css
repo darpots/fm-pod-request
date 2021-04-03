@@ -171,6 +171,7 @@ span {
 @media screen and (min-width: 90rem) {
   .main-section {
     width: 45.1875rem;
+    padding-top: 85px;
   }
 }
 
